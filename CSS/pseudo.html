@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/pseudo.css">
+</head>
+<body>
+
+  <h1>Pseudo Selector</h1>
+
+  <a href="https://www.tiktok.com/" class="pseudo">This is Google</a>
+
+  <!-- :target Pseudo Class -->
+  <a href="#p1">Paragraph1</a>
+  <a href="#p2">Paragraph2</a>
+
+  <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo error, minus, in cupiditate reiciendis tenetur laborum hic molestias, qui ea exercitationem. Saepe quia cum consequuntur alias non dolzor recusandae earum.</p>
+
+  <div id="p2">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel adipisci at beatae illum nisi doloribus aliquam odio eligendi ad mollitia!
+  </div>
+
+  <!-- :focus,:checked Pseudo Class -->
+  <div>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name"> <br>
+
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+
+    <!-- :disable,:enable Pseudo Class -->
+
+    <br>
+    <label for="">Hobbies</label><br>
+    <div>
+      <input type="checkbox" name="hobbies" value="Reading" id="reading">
+      <label for="reading">Reading</label>
+    </div>
+    <div>
+      <input type="checkbox" name="hobbies" value="Travelling" id="Travelling">
+      <label for="Travelling">Travelling</label>
+    </div>
+    <div>
+      <input type="checkbox" name="hobbies" value="Dancing" id="dancing" disabled>
+      <label for="dancing">Dancing</label>
+    </div>
+    <div>
+      <input type="checkbox" name="hobbies" value="Swimming" id="swimming">
+      <label for="swimming">Swimming</label>
+    </div>
+
+    <div>
+      <label for="fName">Father Name</label>
+      <input type="text" value="U Maung Maung" id="fName" readonly> 
+    </div>
+  </div>
+
+  <!-- :empty,first-child,last-child -->
+  <label for="name">Name</label>
+  <input type="text"><br>
+  <p></p>
+  <div></div>
+
+  <label for="">Rules</label>
+  <ul>
+    <li>First Rule</li>
+    <li>Second Rule</li>
+    <li>Third Rule</li>
+    <li>Fourth Rule</li>
+  </ul>
+  <p>a</p>
+  <p></p>
+  <p>b</p>
+
+</body>
+</html>

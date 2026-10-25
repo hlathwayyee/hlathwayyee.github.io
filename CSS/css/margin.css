@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#m1{
+  margin: 10px;
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+#m2{
+  margin: 10px 0 0 0;
+  border:1px solid;
+  padding: 10px 0;
+}
+
+.a{
+  margin: 10px 10px;
+  padding: 20px;
+  border-style: dashed dotted;
+  border-color: aqua red;
+}
+
+.b{
+  margin: 10px;
+  padding: 10px;
+  border:1px solid green;
+  border-style: dashed solid;
+  border-color: blue green;
+}
+
+.g{
+  border: 2px solid red;
+  display: block;
+  width: 100px;
+}
+
+.h{
+  border: 3px dotted green;
+  display: inline-block;
+  width:60px;
+}
+
+.i{
+  border: 6px solid gold;
+  display: inline-block;
+  width: 70px;
+}

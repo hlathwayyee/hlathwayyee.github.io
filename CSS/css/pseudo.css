@@ -1,0 +1,66 @@
+a:link{
+  color:green;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color:blue;
+}
+
+a:visited{
+  color: brown;
+}
+
+#p1:target{
+  color: red;
+}
+
+#p2:target{
+  color: green;
+  text-transform: uppercase;
+}
+
+input[type="text"]:focus{
+  background-color: gray;
+  color: black;
+  letter-spacing: 4px;
+}
+
+input[type="radio"]:checked+label{
+  color: blue;
+  font-style: italic;
+}
+
+input[type="checkbox"]:disabled+label{
+  color: gray;
+}
+
+input[type="checkbox"]:enabled+label{
+  font-weight: bold;
+}
+
+#fName:read-only{
+  background-color: green;
+  color: white;
+}
+
+:empty{
+  background-color: aqua;
+  height: 3px;
+}
+
+ul li:first-child{
+  color: red;
+}
+
+ul li:last-child{
+  color: blue;
+}
+
+ul li:nth-child(3){
+  color: bisque;
+}

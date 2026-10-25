@@ -1,0 +1,52 @@
+/* *{
+  text-align: center;
+} */
+
+h1{
+  background-color: aquamarine;
+  color: red;
+  text-align: center;
+}
+
+p{
+  color:blue;
+}
+
+a[title="description"]{
+  color:red;
+}
+
+a[title="about"]{
+  color: red;
+}
+
+#p1{
+  color: brown;
+}
+
+#p2{
+  color:blueviolet;
+}
+
+.c1{
+  color: black;
+  line-height: 50px;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  text-transform: capitalize;
+}
+
+.c2{
+  color: black;
+  text-transform: lowercase;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+#desc a{
+  color:green;
+}
+
+#child > a{
+  color: red;
+}

@@ -1,0 +1,43 @@
+.float-right{
+  width: 30%;
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.float-left{
+  width: 15%;
+  float: left;
+}
+
+.girdOne div{
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.girdOne{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  /* grid-gap: 30px; */
+}
+
+.girdTwo{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.columnAdd{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.rowAdd{
+  grid-column-start: 2;
+  grid-row-start:2;
+  grid-row-end: 4;
+}

@@ -1,0 +1,49 @@
+.parent-relative{
+  border: 1px solid red;
+  width: 1000px;
+  height: 500px;
+}
+
+.relative{
+  border: 1px solid green;
+  width: 500px;
+  height: 250px;
+  position: relative;
+  top: 200px;
+}
+
+.parent-absolute{
+border: 1px solid red;
+width: 1000px;
+height: 500px;
+position: relative;
+}
+
+.absolute{
+  border: 1px solid red;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 100px;
+}
+
+.fixed{
+  position: fixed;
+  top: 100px;
+  left: 1600px;
+}
+
+.d{
+  border: 1px solid green;
+  width: 1500px;
+  height: 2000px;
+}
+
+.pg{
+  border: 1px solid rebeccapurple;
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+  top: 100px;
+
+}

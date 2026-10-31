@@ -1,0 +1,12 @@
+/* link font */
+@font-face {
+  font-family:"roboto";
+  src: url(../fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+/* reset */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "roboto";
+}

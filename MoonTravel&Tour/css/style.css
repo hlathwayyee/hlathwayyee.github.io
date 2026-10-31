@@ -10,3 +10,49 @@
   padding: 0px;
   font-family: "roboto";
 }
+
+/* navbar */
+.navbarLogo{
+width: 120px;
+height: 90px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 70px;
+
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar ul li{
+  list-style: none;
+  margin-left: 40px;
+}
+
+.navItem{
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.getStarted{
+  text-decoration: none;
+  background-color:#2d3892;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #2d3892;
+  font-weight: bold;
+}
+
+.getStarted:hover{
+  background-color: white;
+  color:#2d3892;
+  border: 1px solid #2d3892;
+  
+}

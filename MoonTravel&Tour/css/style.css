@@ -66,7 +66,6 @@ height: 100px;
   border: 1px solid #2d3892;
   
 }
-
 /* navbar end */
 
 /* banner start */
@@ -112,7 +111,6 @@ height: 100px;
   background-color: transparent;
   font-weight: bold;
 }
-
 /* bunner end */
 
 /* services start */
@@ -160,9 +158,9 @@ padding: 20px;
 
 /* destinations start */
 .destinations{
-  width: 80%;
-  margin: auto;
-  margin-top: 80px;
+  width: 84%;
+  margin: 80px 150px 0px;
+
 }
 
 .destinations hr{
@@ -203,3 +201,225 @@ padding: 20px;
 .destinationCard:hover img{
   filter: brightness(50%);
 }
+
+/* destination end */
+
+/* pupular packages start */
+.popularPackages{
+  margin: 80px 0px 0px;
+  width: 84%;
+}
+
+.popularPackages hr{
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  margin-top: 6px;
+}
+
+.packageCards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.packageCard{
+  height: 390px;
+  width: 310px;
+  background-color:rgb(244, 238, 238);
+  border-radius: 5px;
+}
+
+.packageCard img{
+  width: 100%;
+  height: 60%;
+  border-radius: 5px;
+}
+
+.packageDescription{
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 5px;
+
+}
+
+.packagePrice{
+  color: #9c7a1d;
+  font-weight: bold;
+  float: right;
+  padding-right: 7px;
+}
+
+.packageBookNow{
+  margin-top:20px;
+  margin-left: 200px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #2d3892;
+  color: white;
+  font-weight: bold;
+}
+
+.packageGuration{
+  margin-top: 15px;
+  padding-left: 5px;
+}
+/* popular package end */
+
+/* how it works start */
+.howWork{
+  background-color: rgb(241, 230, 230);
+  margin-top: 80px;
+  height: 640px;
+}
+
+.howWork h2{
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 80px;
+}
+
+.detailExplain{
+  margin-bottom: 80px;
+}
+
+.detailExplain img{
+  height: 400px;
+  width: 400px;
+  float: right;
+  padding-right: 70px;
+}
+
+.explainTitle{
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 70px;
+  line-height: 50px;
+}
+
+.explaination{
+  font-size: 20px;
+  padding-left: 70px;
+  width: 700px;
+}
+/* how it worsend */
+
+/* our blog start */
+.blogImg{
+  width:100% ;
+  height: 230px;
+  border-radius: 5px;
+}
+
+.ourBlog{
+  margin-top: 80px;
+}
+
+.blogTitle hr{
+  width: 90px;
+  height: 3px;
+  background-color: black;
+  margin-top: 6px;
+}
+
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.blog{
+  background-color: rgb(242, 238, 238);
+  border-radius: 5px;
+}
+
+.blog h3{
+ padding: 15px 0;
+}
+
+.blogreadMore{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 330px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #2d3892;
+}
+
+/* our blog end */
+
+/* company info start */
+
+.companyInfoGroup{
+  margin-top: 80px;
+  background-color: rgb(30, 26, 26);
+  color: white;
+  height: 450px;
+}
+
+.comapnayInfo{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.socialContactList img{
+  width: 140px;
+  height: 120px;
+}
+
+.socialContactList p{
+ width: 500px;
+ margin-top: 30px;
+}
+
+.socialIcon{
+ margin-top: 30px;
+}
+
+.companyInfoGroup hr{
+  width: auto;
+  margin: 60px 40px 0;
+  border: 1px solid #9c7a1d;
+  background-color: #9c7a1d;
+}
+
+.destinationList,.serviceList,.contactUs{
+  line-height: 30px;
+}
+
+.destinationList h3,.serviceList h3,.contactUs h3{
+  margin-bottom: 15px;
+}
+
+.destinationList p,.serviceList a,.contactUs p{
+  font-size: 18px;
+}
+
+.serviceList a{
+  text-decoration: none;
+  color: white;
+}
+
+.contactUs p{
+  display: inline-block;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 20px;
+}
+/* company info end */

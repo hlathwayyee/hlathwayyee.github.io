@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>String Deep Learnign</h1>
+
+  <script>
+    //using (+) for String data concact
+    let firstName = "Aye Aye";
+    let lastName = "Myint";
+
+    let fullName1 = firstName + " "+lastName + ".She is a teacher.";
+    //console.log(fullName1);
+
+    //using (concact method) for String data concact
+    let fullName2 = firstName.concat(" ",lastName,".She is an engineer.","She is a mother too.");
+    //console.log(fullName2);
+
+    //using (``sign) for String data concact
+    let fullName3 = `${firstName} ${lastName} She is a doctor.`;
+    console.log(fullName3);
+
+    let fullName4 = `<h3>${firstName} ${lastName}</h3> She is 45 years old.`;
+    document.write(fullName4);
+
+    //trim() method
+    let name1 = "   Aye    Aye";
+    console.log(name1);
+    console.log(name1.trim());
+
+    //upperCase(),lowerCase() method
+    let name2="Mg Mg";
+    console.log(name2.toUpperCase());
+    console.log(name2.toLowerCase());
+
+
+    //search method,length,indexOf method
+    let job = "He is a doctor";
+    console.log(job.length);
+
+    console.log(job.search("doctor"));
+
+    console.log(job.indexOf("doctor"));
+
+    //replace mehtod
+    let place = "I live in Mandalay.";
+    console.log(place.replace("Mandalay","MayMyo"));
+
+    let num = "1,222,333,444";
+    console.log(num.replace(",","")); //replace for 1time
+
+    console.log(num.replace(/\,/g,""));
+
+    //single code,double code nature
+    let name4="I'm Aye Aye.I'm 5'9\"";   //need (/)
+
+    let name5 = 'I\'m Aye Mya';    //need (/)
+
+    //Array methods
+    //push(add index[lastroom] of array)
+    let stuList = ['Tun Tun','Aye Aye'];
+    stuList.push('Hla Hla');
+    console.log(stuList);
+    console.log(stuList.length);
+
+    //pop(delete inde[lastroom] of array)
+    stuList.pop();
+    console.log(stuList);
+
+    //unshift(add index[0] of array)
+    stuList.unshift('Ko Ko');
+    console.log(stuList);
+
+    //shift(delete index[0] of array)
+    stuList.shift();
+    console.log(stuList);
+
+    //array sorting(A to Z)
+    let stuList1 = ['Kyaw Kyaw','Aye Aye','Aye Mya'];
+    //stuList1.sort();
+    console.log(stuList1);
+
+    //array sorting(Z to A)
+    console.log(stuList1.sort().reverse());
+
+    //Array to String
+    console.log(stuList1.toString());
+
+    //String to Array
+    let stuList2 = "Kyaw Kyaw,Aye Aye,Aye Mya";
+    console.log(stuList2.split(","));
+
+
+    //array concat
+    let array1 = [1,2,3];
+    let array2 = [4,5,6];
+
+    let array3 = array1.concat(array2);
+    console.log(array3);
+
+    //[...]
+    let array4 = [...array1,...array2,...array3];
+    console.log(array4);
+
+    
+  </script>
+</body>
+</html>

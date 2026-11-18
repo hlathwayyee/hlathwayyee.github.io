@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Method Lessons</h1>
+  <h2 id="createTextNodeId"></h2>
+  <button onclick="createText()">createText</button>
+  <script>
+    function createText() {
+      let createText = document.createTextNode('Text Node');
+      let createTextNodeId = document.getElementById('createTextNodeId');
+      createTextNodeId.appendChild(createText);
+    }
+  </script>
+
+
+  //createElement
+  <button onclick="createEle()">create element</button>
+  <script>
+    function createEle() {
+      let myEle = document.createElement('h1');
+      myEle.innerText = "create Element Node";
+      document.body.appendChild(myEle);
+    }
+  </script>
+
+
+  //create Attribute
+  <p>This is Set Attribute.</p>
+  <button onclick="createAttr()">Create Attri </button>
+  <script>
+    function createAttr() {
+      let myP = document.getElementsByTagName('p');
+      myP[0].setAttribute('style', 'color:red');
+      myP[0].setAttribute('id', 'myPId');
+      console.log(document.getElementsByTagName('p'));
+      console.log(document.getElementById('myPId'));
+    }
+  </script>
+
+  //remove Attribute
+  <p id="color" style="color:red">Remove Attribute</p><br>
+  <button onclick="changeColor()">Change color</button>
+
+  <script>
+    function changeColor() {
+      let myP = document.getElementById('color');
+      console.log(myP);
+
+      let colorName = myP.getAttribute('style');
+      console.log(colorName);
+
+      if(colorName == "color:red;"){
+        myP.removeAttribute('style');
+        console.log(myP);
+        myP.setAttribute('style','color:green;');
+      }else{
+        myP.removeAttribute('style');
+        myP.setAttribute('style','color:red;');
+      }
+    }
+
+  </script>
+</body>
+
+</html>

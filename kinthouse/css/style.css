@@ -1,0 +1,509 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav start */
+
+.navSection{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.logoImg{
+width: 70px;
+height: 70px;
+margin-left: 250px;
+}
+
+.navWrapper{
+  background-color:rgb(213, 216, 216);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoryWrapper{
+  display: flex;
+  flex-direction: row;
+  margin-right: 170px;
+}
+
+.categoryWrapper a{
+  font-weight: bold;
+}
+
+.navCategory{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navCategory:hover{
+  font-weight: bold;
+  color:black;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 3px;
+}
+/* nav end */
+
+/* banner start */
+.banner{
+  width: 100%;
+  height: 500px;
+}
+
+.disAmt{
+  color: red;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bannerWrapper{
+  background-image: url(../imgs/bannerImg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+}
+
+.bannerWrapper h2{
+  padding-left: 150px;
+  padding-top: 130px;
+  color: black;
+}
+
+.bannerWrapper a{
+  text-decoration: none;
+}
+
+.bannerWrapper p{
+  padding-left: 150px;
+  padding-top: 10px;
+  width: 700px;
+  height: 200px;
+  font-size: 18px;
+}
+/* banner end */
+
+/* recommadation start */
+.sectionWrapper{
+  margin:60px 40px;
+  background-color:rgb(247, 243, 243);
+  height: 480px;
+  border-radius: 5px;
+}
+
+  .recoImg{
+    width: 100%;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+
+  .recoWrapper h3{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .recImgWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .recoBox{
+    margin: 0 10px;
+    width: 320px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .recomTitle{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .recoDescri{
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .recoButton{
+    margin-top: 5px;
+    margin-left: 220px;
+    padding: 3px;
+    background-color:rgb(125, 125, 139);
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+/* recommadation end */
+
+/* recommadation Course start */
+
+.sectionCourseWrapper{
+  margin:60px 40px;
+  background-color:rgb(247, 243, 243);
+  height: 480px;
+  border-radius: 5px;
+}
+.courseImg{
+  width: 100%;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.recoCourseWrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.recoCourseBox{
+  width: 350px;
+  height: 370px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.courseTitle{
+  margin-top:5px ;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.courseDetails{
+  width: 340px;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  hyphens: auto;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.detailButton{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color:rgb(125, 125, 139);
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-bottom: 1px;
+  width: 70px;
+}
+
+/* recommadation course end */
+/* -------------------------------------------------------------- */
+
+/* yarn page start */
+/* yarn banner start */
+.yarnSection{
+  width: 100%;
+  margin-top: 70px;
+}
+
+.yarnBanner{
+  background-image: url(../imgs/yarns/2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 370px;
+}
+
+.yarnBox{
+  width: 300px;
+  height: 400px;
+  margin-left: 590px;
+  border-radius: 5px;
+  padding-top: 130px;
+}
+
+.yarnBox p{
+  padding-top: 15px;
+}
+/* yarn banner end */
+
+/* all yarns start */
+.allyarnsSection{
+  margin:60px 40px;
+  background-color:rgb(247, 243, 243);
+  border-radius: 5px;
+}
+
+.yarnsWrapper img{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.yarnsWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.yarnDetailsBox{
+  width: 300px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+.yarnDetailsBox span{
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color:rgb(125, 125, 139);
+}
+
+.price{
+  margin-left: 170px;
+}
+
+.yarn{
+  background-color:white;
+  border-radius: 5px;
+  width: 320px;
+  height: 350px;
+  margin-bottom: 40px;
+}
+
+.yarnTitle{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.price span{
+  margin-left: 10px;
+}
+
+/* allyarns end */
+/* yarn page end */
+/* -------------------------------------- */
+
+/* pattenBooks start */
+.patternsSection{
+  margin:60px 40px;
+  background-color:rgb(247, 243, 243);
+  border-radius: 5px;
+}
+
+.patternImg{
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.patternsWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.patternBox{
+  width: 350px;
+  height: 420px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bookTitle{
+  margin-top:5px ;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bookDescri{
+  margin-left: 5px;
+}
+
+.allPatterns h2{
+  padding-top: 30px;
+}
+
+.priceBook{
+  margin-top: 15px;
+  margin-left: 170px;
+}
+
+.priceBook span{
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px 0;
+  background-color:rgb(125, 125, 139);
+}
+/* pattenBooks end */
+
+
+/* contact start */
+  .contactUs h2{
+    margin-top: 90px;
+  }
+
+  .contactUs hr{
+    margin-top: 10px;
+    margin-left: 700px;
+    width: 200px;
+  }
+
+  .contactUs p{
+    margin-top: 20px;
+    line-height: 10px;
+  }
+
+  .location{
+    margin-top: 20px;
+    line-height: 30px;
+  }
+
+  .map{
+    margin-top: 20px;
+  }
+
+  .formContact{
+    margin-top: 30px;
+    margin-left: 600px;
+  }
+
+  .questionForm{
+    margin-bottom: 15px;
+    width: 300px;
+  }
+
+  .questionButton{
+    padding: 2px;
+    width: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+  }
+
+  .contactIcon{
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+/* contact end */
+
+/* footer start */
+.footerHr{
+  width: 1470px;
+  margin:0 60px;
+}
+
+footer p{
+  padding-bottom: 30px;
+}
+
+/* footer end */
+/* ------------------------------- */
+
+/* our Courses start */
+
+.sectionOurCourseWrapper{
+  margin:60px 40px;
+  background-color:rgb(247, 243, 243);
+  height: 950px;
+  border-radius: 5px;
+}
+.courseImg{
+  width: 100%;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.ourCourseWrapper h2{
+  padding: 40px 0;
+}
+
+.ourCoursesWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.ourCourseBox{
+  width: 350px;
+  height: 370px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.ourCourseTitle{
+  margin-top:5px ;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ourCourseDetails{
+  width: 340px;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  hyphens: auto;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.detailButton{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color:rgb(125, 125, 139);
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-bottom: 1px;
+  width: 70px;
+}
+
+/* our courses end */
+/* -------------------------------------------------------------- */
+
+/* login start */
+ .myLogin{
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 0 20px;
+  background-color: blue;
+  border-radius: 5px;
+ }
+
+/* login end */

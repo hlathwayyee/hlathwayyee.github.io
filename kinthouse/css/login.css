@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.all{
+  background-color: rgb(179, 179, 194);
+}
+
+/* back To HOME start */
+.backHome{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* back To HOME end */
+
+
+/* form start */
+.formWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  margin:25px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.title,.newAccount{
+  text-align: center;
+}
+.welcome{
+  margin-bottom: 10px;
+}
+
+.inputEmail,.inputPassword,.rememberMe{
+  padding-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
+.newAccount{
+  padding-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.email,.password{
+  width: 360px;
+  height: 30px;
+  margin-top: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid;
+  padding-left: 10px;
+}
+
+.login{
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 360px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(62, 62, 118);
+  border: none;
+}
+
+.resetPassword{
+  margin-left: 95px;
+}
+
+.email:focus{
+  border-color: blue !important;
+  outline: none;
+}
+
+.password:focus{
+  border-color: blue !important;
+  outline: none;
+}
+/* form end */
